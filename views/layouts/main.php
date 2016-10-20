@@ -43,8 +43,8 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'ติดต่อ', 'url' => ['/site/contact']],
+            ['label' => 'ลงทะเบียน', 'url' => ['/report_com_detail']],
+            ['label' => 'รายงาน', 'url' => ['/reportcomtype']],
             ['label' => 'ทดสอบ1', 'url' => ['/first1/index']],
             ['label' => 'ตั้งค่าระบบ', 'items' => $setting],
             Yii::$app->user->isGuest ? (
